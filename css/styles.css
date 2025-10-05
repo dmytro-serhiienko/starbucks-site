@@ -1,0 +1,184 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #121517;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+svg {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* !================= HEADER */
+.header > .container {
+  padding-top: 30px;
+}
+
+.logo-menu {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.logo-header {
+  font-weight: 800;
+  font-size: 37px;
+  line-height: 1.09471;
+  letter-spacing: -0.03em;
+  background: linear-gradient(223deg, #237249 0%, #35c66b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 95px;
+}
+
+.menu-header {
+  display: flex;
+  gap: 93px;
+}
+
+.menu-header-items {
+}
+
+.menu-header-link {
+  font-weight: 400;
+  font-size: 19px;
+  color: #d9d9d9;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.main-content {
+  max-width: 574px;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+
+  position: relative;
+}
+
+.main-title {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 1.09471;
+  letter-spacing: -0.03em;
+  color: #fff;
+
+  & span {
+    color: #237249;
+  }
+}
+
+.main-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.63471;
+  letter-spacing: -0.02em;
+  color: #d9d9d9;
+}
+
+.main-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.main-button-select {
+  font-weight: 639;
+  font-size: 24px;
+  line-height: 1.45;
+  letter-spacing: -0.02em;
+  color: #fff;
+
+  border-radius: 83px;
+  width: 333px;
+  height: 74px;
+
+  background: linear-gradient(210deg, #237249 0%, #35c66b 100%);
+}
+
+.main-button-more {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.46471;
+  letter-spacing: -0.03em;
+  color: #d9d9d9;
+
+  border-radius: 83px;
+  width: 167px;
+  height: 74px;
+
+  background: #121517;
+}
+
+.main-buttons-link {
+}
+
+.info-stats {
+  display: flex;
+  gap: 46px;
+}
+
+.info-stats-items {
+}
+
+.info-stats-link {
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 1.09471;
+  letter-spacing: -0.03em;
+  color: #fff;
+
+  & span {
+    color: #237249;
+  }
+}
+
+.info-stats-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.44471;
+  letter-spacing: -0.02em;
+  color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-image {
+  position: absolute;
+  right: 150px;
+  top: 0;
+}
